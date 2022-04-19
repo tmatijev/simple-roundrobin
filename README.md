@@ -5,7 +5,7 @@
 Simply pass the params for teams:
 
 ```js
-var scores = simpleRoundRobin({
+const schedule = simpleRoundRobin({
   teams: ['Hajduk', 'Osijek'],
   legs: 2 // Optional - 1 is default
 });
