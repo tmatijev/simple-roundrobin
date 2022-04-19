@@ -1,0 +1,20 @@
+{
+  "name": "simple-roundrobin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simple-roundrobin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmatijev/simple-roundrobin.git"
+  },
+  "keywords": [],
+  "author": "Tomislav Matijevic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmatijev/simple-roundrobin/issues"
+  },
+  "homepage": "https://github.com/tmatijev/simple-roundrobin#readme"
+}
