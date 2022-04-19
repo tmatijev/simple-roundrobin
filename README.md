@@ -5,6 +5,8 @@
 Simply pass the params for teams:
 
 ```js
+import simpleRoundRobin from 'simple-roundrobin'
+
 const schedule = simpleRoundRobin({
   teams: ['Hajduk', 'Osijek'],
   legs: 2 // Optional - 1 is default
