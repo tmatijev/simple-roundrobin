@@ -1,4 +1,4 @@
-# Match Result Prediction
+# Simple RoundRobin
 
 [![npm status](https://img.shields.io/badge/npm-v1.0.1-brightgreen.svg)](https://www.npmjs.org/package/simple-roundrobin)
 
