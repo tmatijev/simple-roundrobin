@@ -1,6 +1,6 @@
 # Match Result Prediction
 
-[![npm status](https://img.shields.io/badge/npm-v1.0.0-brightgreen.svg)](https://www.npmjs.org/package/simple-roundrobin)
+[![npm status](https://img.shields.io/badge/npm-v1.0.1-brightgreen.svg)](https://www.npmjs.org/package/simple-roundrobin)
 
 ### Usage
 
