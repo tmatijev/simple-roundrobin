@@ -1,20 +1,32 @@
 {
   "name": "simple-roundrobin",
-  "version": "1.0.2",
-  "description": "",
-  "main": "simple-roundrobin.js",
+  "version": "1.0.3",
+  "description": "A simple round-robin tournament scheduler",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tmatijev/simple-roundrobin.git"
   },
-  "keywords": [],
+  "keywords": [
+    "tournament",
+    "schedule",
+    "round-robin",
+    "sports"
+  ],
   "author": "Tomislav Matijevic",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tmatijev/simple-roundrobin/issues"
-  },
-  "homepage": "https://github.com/tmatijev/simple-roundrobin#readme"
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.11.24",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  }
 }
